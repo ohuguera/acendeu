@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080">
+  <!-- Mascote da Acendeu: lâmpada acesa com cara. Lido a 32 px: silhueta de lâmpada + 2 olhos. -->
+  <defs>
+    <radialGradient id="halo" cx="50%" cy="44%" r="50%">
+      <stop offset="0" stop-color="#ffb547" stop-opacity=".55"/>
+      <stop offset=".55" stop-color="#ffb547" stop-opacity=".12"/>
+      <stop offset="1" stop-color="#ffb547" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="vidro" cx="42%" cy="34%" r="70%">
+      <stop offset="0" stop-color="#fff3d6"/>
+      <stop offset=".45" stop-color="#ffd27a"/>
+      <stop offset="1" stop-color="#ffa62e"/>
+    </radialGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="#0d0c0a"/>
+  <circle cx="540" cy="470" r="520" fill="url(#halo)"/>
+  <!-- raios -->
+  <g stroke="#ffb547" stroke-width="26" stroke-linecap="round" opacity=".9">
+    <line x1="540" y1="70" x2="540" y2="130"/>
+    <line x1="250" y1="190" x2="290" y2="232"/>
+    <line x1="830" y1="190" x2="790" y2="232"/>
+    <line x1="150" y1="470" x2="210" y2="470"/>
+    <line x1="930" y1="470" x2="870" y2="470"/>
+  </g>
+  <!-- vidro da lâmpada -->
+  <path d="M540 175c-165 0-290 120-290 285 0 95 45 165 105 225 38 38 55 70 58 112h254c3-42 20-74 58-112 60-60 105-130 105-225 0-165-125-285-290-285z" fill="url(#vidro)"/>
+  <!-- brilho -->
+  <path d="M370 360c20-70 75-120 140-135" fill="none" stroke="#fffaf0" stroke-width="30" stroke-linecap="round" opacity=".85"/>
+  <!-- rosto -->
+  <ellipse cx="465" cy="470" rx="34" ry="46" fill="#0d0c0a"/>
+  <ellipse cx="615" cy="470" rx="34" ry="46" fill="#0d0c0a"/>
+  <circle cx="476" cy="454" r="12" fill="#fff"/>
+  <circle cx="626" cy="454" r="12" fill="#fff"/>
+  <path d="M478 560q62 52 124 0" fill="none" stroke="#0d0c0a" stroke-width="22" stroke-linecap="round"/>
+  <ellipse cx="410" cy="545" rx="30" ry="18" fill="#ff7a3c" opacity=".45"/>
+  <ellipse cx="670" cy="545" rx="30" ry="18" fill="#ff7a3c" opacity=".45"/>
+  <!-- rosca -->
+  <rect x="410" y="805" width="260" height="40" rx="20" fill="#cfc6b6"/>
+  <rect x="420" y="855" width="240" height="40" rx="20" fill="#a99f8e"/>
+  <rect x="430" y="905" width="220" height="40" rx="20" fill="#cfc6b6"/>
+  <path d="M470 955h140l-30 48h-80z" fill="#3a352d"/>
+</svg>
